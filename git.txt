@@ -1,0 +1,30 @@
+git status
+git init
+git add.
+git commit -m "filename"
+
+git config --global user.email "email"
+git config --global user.name "username"
+
+git diff utils.txt  <= to see change
+git push origin master 
+git checkout.  <= to reset file 
+git pull    <= to update repository
+
+
+git add -A  <= stages all
+git add.    <= stages new and modified without deleted
+git add -u  <= stages modified & deleted without new
+
+git clone SSH  <= to take repository
+
+
+for ignoring files uses.gitignore
+
+git branch
+git branch branchname  <= to create a new branch
+git checkout branchname  <= to enter in branch or switch
+git checkout  <= to go into previous 
+git branch -d branchname  <= to delete branch
+git merge branchname  <=to merge master
+git push origin --delete branchname <= to delete branch at github 
